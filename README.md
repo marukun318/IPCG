@@ -1,6 +1,6 @@
-<!-- IPCG README.md -->
+<!-- IPCGWin README.md -->
 
-# IPCG
+# IPCGWin
 
 This program converts PNG images into PCG definitions in Ichigojam.  
 code by Marukun.
