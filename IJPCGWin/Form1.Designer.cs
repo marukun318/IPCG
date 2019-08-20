@@ -1,4 +1,4 @@
-﻿namespace IJPCG
+﻿namespace IJPCGWin
 {
     partial class Form1
     {

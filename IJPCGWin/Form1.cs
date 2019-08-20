@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
-namespace IJPCG
+namespace IJPCGWin
 {
     public partial class Form1 : Form
     {
