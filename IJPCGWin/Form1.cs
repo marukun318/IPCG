@@ -107,19 +107,19 @@ namespace IJPCGWin
                     sb.AppendFormat(" POKE #{0:X3},",adr);
                     for (int y = 0; y < 8; y++)
                     {
-                        int bt = 0;
+                        int bit = 0;
                         int py = j + y;
                         for (int x = 0; x < 8; x++)
                         {
                             int px = i + x;
                             Color col = bitmap.GetPixel(px, py);
-                            bt <<= 1;
+                            bit <<= 1;
                             if (col.A > 128)
                             {
-                                bt |= 1;
+                                bit |= 1;
                             }
                         }
-                        sb.AppendFormat(bt.ToString());
+                        sb.AppendFormat(bit.ToString());
                         if (y < 7)
                         {
                             sb.Append(',');
